@@ -1,0 +1,55 @@
+body {
+    background-color:#FF5555;
+    font-size: 18px;
+    font: Georgia, serif;
+}
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+nav{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    font: Verdana, sans-serif;
+}
+
+section {
+    display: block;
+    width: 200px;
+    float: right;
+}
+a{
+    text-decoration:none;
+    font: Verdana, liberation;
+    color:#FFDD22;
+}
+.ender {
+    color: #FFDD22;
+    margin-right: 0;
+    font: Verdana, liberation;
+}
+
+.ender a {
+    text-decoration: underline;
+}
+
+hr {
+    width:320px;
+    margin-left:0;
+    height: 2px;;
+}
+
+.imgLogo{
+    margin-left: 0;
+}
+
+ul {
+    line-height: 200%;
+    list-style-type: disc;
+    color:#FFDD00;
+}

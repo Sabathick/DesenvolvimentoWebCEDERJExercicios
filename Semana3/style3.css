@@ -1,0 +1,38 @@
+nav { 
+    display: block; 
+	text-align: left;
+    margin-bottom: 6px; 
+    padding-bottom: 12px;
+	border-bottom: 3px solid;
+}
+
+section {
+    display: block; 
+}
+
+article {
+    margin-bottom: 20px;
+    padding-bottom: 16px;	
+	border-bottom: 2px dotted;
+}
+
+body {
+	color: maroon;
+	background-color: beige;
+}
+
+a        { text-decoration: none   }
+
+a:link   { color: blue;   }
+a:vlink  { color: red;    }
+
+
+.titulo {
+    color: navy;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h3 {
+    color: darkgreen;
+}

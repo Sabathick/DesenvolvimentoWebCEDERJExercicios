@@ -1,0 +1,34 @@
+header { 
+    display: block; 
+	text-align: left;
+    margin-bottom: 6px; 
+    padding-bottom: 12px;
+	border-bottom: 3px solid;
+}
+
+section {
+    display: block; 
+	font-size: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-size: 22px;
+	font-style: italic;
+}
+
+section ol {
+	list-style-type: upper-roman;
+}
+
+
+ol a {
+	text-decoration:none; 	
+}
+
+a:link      { color: red;   }
+a:visited   { color: green; }

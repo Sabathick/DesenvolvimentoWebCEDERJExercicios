@@ -1,0 +1,272 @@
+body {
+    background-color:#FF5555;
+    font-size: 18px;
+    color:#FFDD22;
+    font: Lato, Georgia, serif;
+}
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+nav{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    font: Rubik, Verdana, sans-serif;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+a{
+    text-decoration:none;
+    color:#FFDD00;
+}
+a:visited {
+     color:#FFBB00;
+ }
+ 
+.ender {
+    color: #FFDD22;
+    margin-right: 0;
+    align-items: right;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+}
+
+.imgLogo{
+    margin-left: 0;
+    border-bottom: solid 3px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+ul {
+    line-height: 200%;
+}
+
+nav ul {
+    color: #FFDD22;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: disc;
+}
+
+.apres{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilos da página Dabel */
+
+.preco {
+    color: #EE0000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.tabDaBel {
+    border: solid;
+    border-collapse: collapse;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    background-color: #FFCC44;
+    color: #000066;
+    font: Rubik, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: solid 3px;
+    border-color: #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+th {
+    border: solid 3px;
+    border-color: #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+.titulo {
+    color: #FFFF00;
+    background-color: #228855;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.linTH {
+    color: #FFFFFF;
+    background-color:#22AA55;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.colTH {
+    color:#FFFFFF;
+    background-color:#2299DD;
+    text-align: left;
+}
+
+.imgDaBel {
+    width: 70px;
+    height: 70px;
+}
+
+/* Estilos da página Demel */
+
+.listaComMel{
+    width: 340px;
+    color: #AA0000;
+    background-color: #EECC88;
+    padding: 10px 10px 10px 50px;
+    border: solid 2px;
+    border-color: #000055;
+    margin: 0px auto 10px auto;
+
+}
+
+.produtos {
+    color: #AA0000;
+    list-style-type: square;
+}
+
+.tituloDemel{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilos da página Pedidos */
+
+.divCompras {
+    width: 550px;
+    color: #2255AA;
+    background-color: #EEEEAA;
+    padding: 6px 6px 15px 6px;
+    font-size: 14px;
+    margin: 20px auto 20px auto;
+    border: solid 2px;
+    border-color:#77CCDD;
+
+}
+
+.listaCompras {
+    width: 210px;
+    height:160px;
+    float: right;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.colLabSelProd {
+    width:230px;
+    height:40px;
+    float:left;
+}
+
+.colSelProd{
+    width:160px;
+    float:right;
+}
+
+.linhaProdSel{
+    width:220px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.elemEsq {
+    display:block;
+    float: left;
+}
+
+.elemDir {
+    display:block;
+    float:right;
+}
+
+.botoes {
+    margin: 20px 10px 0px 10px;
+    text-align:left;
+}
+
+.fsEsq{
+    display:inline;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.fsDir{
+    display:inline;
+    float:right;
+    margin:0px 0px 0px 0px;
+}
+
+.inpGrande{
+    width:380px;
+}
+
+.impMedio{
+    width:80;
+}
+
+.impNCC{
+    width:130px;
+}
+
+.impTelef {
+    width: 90px;
+}
+
+.impoEnder {
+    width:180px;
+    height:50px;
+}
+
+.numDD {
+    width:30px;
+}
+
+.numQD {
+    width:50px;
+}
+
+.divLinha {
+    width:500px;
+    margin-bottom: 6px;
+}
+
+.colLabCrd {
+    width: 260px;
+    height: 40px;
+    float:left;
+}
+
+.colPri {
+    float: left;
+    display: block;
+    width: 90px;
+}
+
+.colPriCompras {
+    float:left;
+    display: block;
+    width: 86px;
+}
+
+.colPriPag{
+    float:left;
+    display:block;
+    width: 250px;
+}

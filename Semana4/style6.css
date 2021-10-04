@@ -1,0 +1,50 @@
+header { 
+    display: block; 
+	text-align: left;
+    margin-bottom: 6px; 
+    padding-bottom: 12px;
+	border-bottom: 3px solid;
+}
+
+section {
+    display: block; 
+	font-size: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-size: 22px;
+	font-style: italic;
+}
+
+.tabDefinic {
+    color: #000066;
+	margin-top: 6px;
+    border-collapse: collapse;
+    font-family: "arial,ubuntu";
+	background-color: #FFFFFF;  
+	width: 90%;
+}
+
+.tabDefinic td, .tabDefinic th {
+    border:  3px solid #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+.tabDefinic .linTH {
+    color: #FFFF00;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2288CC;
+}
+
+.tabDefinic .colTH {
+    color: #FFFF00;
+    text-align: left;
+    background-color: #229999;
+	width: 200px;
+}
