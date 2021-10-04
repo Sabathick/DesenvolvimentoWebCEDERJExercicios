@@ -1,8 +1,25 @@
+/* Estilos gerais */
+
 body {
     background-color:#FF5555;
     font-size: 18px;
     color:#FFDD22;
     font: Lato, Georgia, serif;
+}
+
+a:link { 
+    color:#FFDD00;
+    text-decoration:none;
+}
+a:visited {
+    color:#FFBB00;
+    text-decoration:none;
+}
+ol{
+    line-height:200%;
+}
+ul{
+    line-height:200%;
 }
 
 header {
@@ -19,39 +36,15 @@ nav{
     font: Rubik, Verdana, sans-serif;
 }
 
+/* Estilo seção */
+
 section {
     display: block;
     width: 70%;
     float: right;
 }
 
-a{
-    text-decoration:none;
-    color:#FFDD00;
-}
-a:visited {
-     color:#FFBB00;
- }
- 
-.ender {
-    color: #FFDD22;
-    margin-right: 0;
-    align-items: right;
-    font-size: 14px;
-    line-height: 140%;
-    float: right;
-}
-
-.imgLogo{
-    margin-left: 0;
-    border-bottom: solid 3px;
-    margin-bottom: 6px;
-    padding-bottom: 5px;
-}
-
-ul {
-    line-height: 200%;
-}
+/* Estilo nav */
 
 nav ul {
     color: #FFDD22;
@@ -60,44 +53,44 @@ nav ul {
     list-style-type: disc;
 }
 
-.apres{
+/* Estilo header */
+
+.ender {
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+}
+
+img.imgLogo{
+    border-bottom: solid 3px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+/* Estilo seção apresentação*/
+
+div.apres{
     text-align: center;
     font-size: 18px;
 }
 
 /* Estilos da página Dabel */
 
-.preco {
-    color: #EE0000;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-.tabDaBel {
-    border: solid;
+.tabDabel {   
     border-collapse: collapse;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    background-color: #FFCC44;
+    margin: 6px auto 10px auto;
+    background-color:#FFCC44;
     color: #000066;
-    font: Rubik, Verdana, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: Rubik, Verdana, sans-serif;
 }
 
-td {
-    border: solid 3px;
-    border-color: #226699;
-    padding: 6px 12px 6px 12px;
+.tabDabel td, .tabDabel th{
+    border: 3px solid #226699;
+    padding: 6px 12px 6px 12px; 
 }
 
-th {
-    border: solid 3px;
-    border-color: #226699;
-    padding: 6px 12px 6px 12px;
-}
-
-.titulo {
+.tabDabel .titulo {
     color: #FFFF00;
     background-color: #228855;
     font-weight: bold;
@@ -105,26 +98,30 @@ th {
     font-size: 24px;
 }
 
-.linTH {
+.tabDabel .linTH {
     color: #FFFFFF;
     background-color:#22AA55;
-    font-weight: bold;
     text-align: center;
     vertical-align: middle;
 }
 
-.colTH {
+.tabDabel .colTH {
     color:#FFFFFF;
     background-color:#2299DD;
     text-align: left;
 }
 
-.imgDaBel {
+.imgDabel {
     width: 70px;
     height: 70px;
 }
 
+
 /* Estilos da página Demel */
+
+.Titulo {
+    text-align: center;
+}
 
 .listaComMel{
     width: 340px;
@@ -134,20 +131,22 @@ th {
     border: solid 2px;
     border-color: #000055;
     margin: 0px auto 10px auto;
-
+    list-style-type: upper-roman;
+    font-family: Rubik, verdana, sans-serif;
 }
 
-.produtos {
+.listaComMel ul{
     color: #AA0000;
     list-style-type: square;
 }
 
-.tituloDemel{
-    text-align: center;
-    font-size: 18px;
+.preco{
+    color:#EE0000;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
-/* Estilos da página Pedidos */
+/* Estilos do formulario */
 
 .divCompras {
     width: 550px;
@@ -158,8 +157,8 @@ th {
     margin: 20px auto 20px auto;
     border: solid 2px;
     border-color:#77CCDD;
-
 }
+
 
 .listaCompras {
     width: 210px;
@@ -213,34 +212,17 @@ th {
     margin:0px 0px 0px 0px;
 }
 
-.inpGrande{
-    width:380px;
-}
+/*Tamanho de Input*/
 
-.impMedio{
-    width:80;
-}
+.inpGrande {width:380px;}
+.impMedio {width:80;}
+.impNCC {width:130px;}
+.impTelef {width:90px;}
+.impoEnder {width:180px; height:50px;}
+.numDD {width:30px;}
+.numQD {width:50px;}
 
-.impNCC{
-    width:130px;
-}
-
-.impTelef {
-    width: 90px;
-}
-
-.impoEnder {
-    width:180px;
-    height:50px;
-}
-
-.numDD {
-    width:30px;
-}
-
-.numQD {
-    width:50px;
-}
+/*Estilo dados formulario*/
 
 .divLinha {
     width:500px;
