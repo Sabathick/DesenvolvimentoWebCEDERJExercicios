@@ -252,3 +252,27 @@ div.apres{
     display:block;
     width: 250px;
 }
+
+.listaComMel a:link { color: #AA0000; }
+.listaComMel a:visited { color: #AA0000; }
+
+.janInfo {
+ text-align: center;
+ width: 300px;
+ color: #AA0000;
+ padding-bottom: 20px;
+ border: 2px solid #000055;
+ background-color: #EECC88;
+ font-family: Rubik, verdana, sans-serif;
+}
+
+.janInfoImg {
+    text-align: center;
+    margin: 30px;
+    border: 2px solid #000055;
+    background-color: #FFFFFF;
+   }
+   .janInfoDetalhe {
+    text-align: left;
+    margin: 20px;
+   }
