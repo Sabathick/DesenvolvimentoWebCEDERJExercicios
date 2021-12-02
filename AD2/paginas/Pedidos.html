@@ -69,45 +69,51 @@
     </div>
     </fieldset>
     <fieldset><legend>Seleção de
-    Produtos e Pagamento&nbsp;</legend>
-    <Select name="selProduto" id="selProduto">
-    <option> ----- </option>
-    <optgroup label="Iogurte">
-     <option>Natural com mel (150g)</option>
-     <option>Zero lactose (150g)</option></optgroup>
-    <optgroup label="Balas">
-     <option>Gengibre e Mel (60g)</option>
-     <option>Mel e Anis (60g)</option></optgroup>
-    <optgroup label="Barra de Cereal">
-     <option>Mel e Granola (25g)</option></optgroup>
-    <optgroup label="Pote de Mel">
-     <option>Mel Flores Silvestres (350g)</option>
-     <option>Mel de Eucalipto (450g)</option>
-     <option>Mel Flor de Laranjeira (750g)</option></optgroup>
-    <optgroup label="Própolis">
-     <option>Extrato (30ml)</option>
-     <option>Spray</option></optgroup>
-    </select>
-    <input type="button" value="Comprar" />
-    <textarea class="listaCompras" name="listaPedidos"
-     readonly>
-    </textarea>
-    <br/><br/>
-    <fieldset class="fsEsq"><legend> Cartão&nbsp;</legend>
-    <label class="colLabCrd" >Bandeira:
-    <label><input type="radio" name="RadBand" checked />Visa</label>
-    <label><input type="radio" name="RadBand" />Master</label>
-    <label><input type="radio" name="RadBand" />Elo</label>
-    </label><br/>
-    <label class="colLabCrd" for="mesVal">Validade:
-    <input type="number" name="TxtMesVal" id="mesVal"
-     min="1" max="12" class="numDD" value="10" /> /
-    <input type="number" name="TxtAnoVal" value="2021"
-     min="2020" max="2030" class="numQD" /></label><br/>
-    <label class="colLabCrd" for="numCar">Número:
-    <input type=text name="TxtNumCard"
-     class="inpNCC" id="numCar"/></label><br/>
-    </fieldset>
+        Produtos e Pagamento&nbsp;</legend>
+        <Select name="selProduto" id="selProduto">
+        <option> ----- </option>
+        <optgroup label="Iogurte">
+         <option>Natural com mel</option>
+         <option>Zero lactose</option></optgroup>
+        <optgroup label="Balas">
+         <option>Gengibre e Mel</option>
+         <option>Mel e Anis</option></optgroup>
+        <optgroup label="Barra de Cereal">
+         <option>Mel e Granola</option></optgroup>
+        <optgroup label="Pote de Mel">
+         <option>Mel Flores Silvestres</option>
+         <option>Mel de Eucalipto</option>
+         <option>Mel Flor de Laranjeira</option></optgroup>
+        <optgroup label="Própolis">
+         <option>Extrato</option>
+         <option>Spray</option></optgroup>
+        </select>
+        <input type="button" value="Comprar"
+         onClick="IncluiLista( this.form.selProduto );" />
+        <textarea class="listaCompras" name="listaPedidos"
+         readonly>
+        </textarea>
+        <br/><br/>
+        <fieldset class="fsEsq"><legend> Cartão&nbsp;</legend>
+        <label class="colLabCrd" >Bandeira:
+        <label><input type="radio" name="RadBand" checked />Visa</label>
+        <label><input type="radio" name="RadBand" />Master</label>
+        <label><input type="radio" name="RadBand" />Elo</label>
+        </label><br/>
+        <label class="colLabCrd" for="mesVal">Validade:
+        <input type="number" name="TxtMesVal" id="mesVal"
+         min="1" max="12" class="numDD" value="10" /> /
+        <input type="number" name="TxtAnoVal" value="2021"
+         min="2020" max="2030" class="numQD" /></label><br/>
+        <label class="colLabCrd" for="numCar">Número:
+        <input type=text name="TxtNumCard"
+         class="inpNCC" id="numCar"/></label><br/>
+        </fieldset>
+        <label class="elemDir" for="TxtTotal"><br/>Valor R$
+        <input type="text" name="TxtTotal"
+         id="TxtTotal" class="inpMedio"
+         value="0" readonly /></label>
+        </fieldset>
     <label class="elemDir" for="TxtTotal"><br/>Valor R$
     <input type="text" name="TxtTotal" readonly
      id="TxtTotal" class="inpMedio" /></label>
@@ -118,5 +124,6 @@
     </div></form>
     </div>
     </section>
+    <script src="../scripts/telefonecheck.js"></script>
 </body>
 </html>
