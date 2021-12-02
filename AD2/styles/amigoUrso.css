@@ -272,7 +272,32 @@ div.apres{
     border: 2px solid #000055;
     background-color: #FFFFFF;
    }
-   .janInfoDetalhe {
+.janInfoDetalhe {
     text-align: left;
     margin: 20px;
+   }
+
+   .tabDabel a:link { color: #AA0000; }
+   .tabDabel a:visited { color: #AA0000; }
+   .tabDabel td, .tabDabel th {
+    height: 40px;
+   }
+   .tabDabel .imgCel {
+    text-align: center;
+    background-color: #FFFFFF;
+    vertical-align: text-top;
+   }
+   #titDes {
+    height: 60px;
+    text-align: center;
+   }
+   #prcDes {
+    height: 40px;
+   }
+   #imgDes {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #226699;
+    padding: 4px;
+    background-color: #FFFFFF;
    }

@@ -59,11 +59,13 @@
      min="1920" max="2002" class="numQD" />
     </fieldset>
     <p><label class="colPri">Telefone:</label>
-    <input type="text" class="inpTelef"
-     name="TxtTelefone" required /></p>
-    <label class="colPri">Celular:</label>
-    <input type="text" class="inpTelef"
-     name="TxtCelular" />
+        <input type="text" class="inpTelef"
+         onChange="VerificaTelef(this, 8);"
+         name="Telefone" required /></p>
+        <label class="colPri">Celular:</label>
+        <input type="text" class="inpTelef"
+         onChange="VerificaTelef(this, 9);"
+         name="Celular" />
     </div>
     </fieldset>
     <fieldset><legend>Seleção de

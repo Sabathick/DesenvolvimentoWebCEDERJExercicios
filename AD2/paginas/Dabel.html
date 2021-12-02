@@ -23,37 +23,26 @@
         </ul>
     </nav>
     <section>
-      <br/>
-      <table class="tabDabel">
-        <tr><th colspan="4" class="titulo">Produtos Direto da
-        Abelha</th></tr>
+        <br/>
+        <table class="tabDabel">
+        <tr><th colspan="4" class="titulo"> Produtos Direto da Abelha</th></tr>
         <tr><th class="linTH">Produto</th>
-         <th class="linTH">Descrição</th>
-         <th class="linTH">Foto</th>
-         <th class="linTH">Preço</th></tr>
-        <tr><th rowspan="3" class="colTH">
-         Pote de Mel</th>
-         <td>Mel Flores Silvestres (350g)</td>
-         <td><img class="imgDabel" src="../imagens/MelSilvestre100.jpg"/>
-        </td>
-         <td class="preco">R$ 20,00</td></tr>
-        <tr><td>Mel de Eucalipto (450g)</td>
-         <td><img class="imgDabel" src="../imagens/MelEucalipto100.jpg"/>
-        </td>
-         <td class="preco">R$ 25,00</td></tr>
-        <tr><td>Mel Flor de Laranjeira (750g)</td>
-         <td><img class="imgDabel" src="../imagens/MelLaranja100.jpg"/>
-        </td>
-         <td class="preco">R$ 40,00</td></tr>
-        <tr><th rowspan="2" class="colTH">
-         Própolis</th>
-         <td>Extrato (30ml)</td>
-         <td><img class="imgDabel" src="../imagens/Propol100.jpg" /></td>
-         <td class="preco">R$ 16,00</td></tr>
-        <tr><td>Spray</td>
-         <td><img class="imgDabel" src="../imagens/Spray100.jpg" /></td>
-         <td class="preco">R$ 9,00</td></tr>
+         <th class="linTH">Tipo</th>
+         <th class="linTH">Descrição</th></tr>
+        <tr><th rowspan="3" class="colTH"> Pote de Mel</th>
+         <td><a target="_self" href="javascript:Mostra(1);"> Flores Silvestres</a></td>
+         <td class="imgCel" rowspan="5">
+         <div id="titDes"><p>&nbsp;<br/>&nbsp;</p>
+         </div><img id="imgDes" src="Imagens/vazio.jpg" />
+         <div id="prcDes">&nbsp;</div>
+         </td></tr>
+        <tr><td><a target="_self" href="javascript:Mostra(2);"> Eucalipto</a></td></tr>
+        <tr><td><a target="_self" href="javascript:Mostra(3);"> Flor de Laranjeira</a></td></tr>
+        <tr><th rowspan="2" class="colTH"> Própolis</th>
+         <td><a target="_self" href="javascript:Mostra(4);"> Extrato</a></td></tr>
+        <tr><td><a target="_self" href="javascript:Mostra(5);"> Spray</a></td></tr>
         </table>
         </section>  
+    <script src="../scripts/dabel.js"></script>
 </body>
 </html>
